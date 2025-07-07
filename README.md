@@ -15,4 +15,9 @@ Ce projet est une application **Node.js** conteneurisée avec **Docker** et prê
 
 ```bash
 docker build -t dockerized-nodejs-app .
+```
+###2.  Lancer le conteneur
 
+```bash
+docker run -p 3000:3000 dockerized-nodejs-app
+```
